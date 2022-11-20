@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43.2
+    y: 66
     width: 1536
-    height: 780.8
+    height: 781
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 7}
@@ -39,10 +39,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1217.6
+    x: 1217.5
     y: 0
-    width: 318.40002
-    height: 730.8
+    width: 318.5
+    height: 731
   m_MinSize: {x: 301, y: 321}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -71,11 +71,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1536
-    height: 730.8
+    height: 731
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 722
+  controlID: 4779
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,10 +91,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 936
+    x: 938.5
     y: 0
-    width: 281.59998
-    height: 730.8
+    width: 279
+    height: 731
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 251.2
+    width: 154.5
     height: 468
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -145,8 +145,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 468
-    width: 936
-    height: 262.8
+    width: 938.5
+    height: 263
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -176,7 +176,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
-    height: 780.8
+    height: 781
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 760.8
+    y: 761
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -245,12 +245,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 936
-    height: 730.8
+    width: 938.5
+    height: 731
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 727
+  controlID: 4780
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,12 +270,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 936
+    width: 938.5
     height: 468
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 728
+  controlID: 4781
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,9 +291,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 251.2
+    x: 154.5
     y: 0
-    width: 684.8
+    width: 784
     height: 468
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -324,10 +324,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1217.6
-    y: 73.6
-    width: 317.40002
-    height: 709.8
+    x: 1217.5
+    y: 96
+    width: 317.5
+    height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -339,7 +339,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: d4dab764bb81e44bd9443cdee2776015, type: 3}
+    m_Image: {fileID: 2800000, guid: 49f7c306ee926487bb4f10455ebea8c8, type: 3}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -354,12 +354,17 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Get started
+      m_Untranslated: Change colors
     Text:
-      m_Untranslated: "In this tutorial, you\u2019ll begin to explore the basics
-        of the Unity Editor as you:\n\n\u2022 Playtest the start of the Karting Microgame\n\u2022
-        Review the Unity Editor interface\n\u2022 Make the player's kart go faster\n\nReady?
-        Let's go!"
+      m_Untranslated: 'Make your game more colorful!
+
+
+        You can use <b>Materials</b>
+        to change the colors of GameObjects.
+
+
+        In this tutorial, you''ll
+        change the color of the player''s kart.'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -371,10 +376,7 @@ MonoBehaviour:
       m_UnmaskedViews: []
     m_Summary: 
     m_Description: 
-    m_InstructionBoxTitle: "<b><size=16>Playtest</size></b>\n\x03\x03\n<b><size=11><color=\"grey\">TUTORIAL
-      </color></size></b>\n\nIn this first tutorial, you will start by playing the
-      Karting game. After, you will learn how to make your first modification in
-      Unity.\x03\n\n\u2192  Click <b>Start</b> below to begin."
+    m_InstructionBoxTitle: 
     m_InstructionText: 
     m_TutorialButtonText: 
   - m_Type: 1
@@ -402,33 +404,298 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 53c032a736ea44f72b204332d1dc0f01, type: 3}
-    m_Video: {fileID: 32900000, guid: d69745293769a49ffb6955bb4862345c, type: 3}
+    m_Image: {fileID: 2800000, guid: 278639b7d527f4e29be21670bb37a1d4, type: 3}
+    m_Video: {fileID: 32900000, guid: e292ffe4f11dd4130a4095e4e7879fe2, type: 3}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
       m_MaskingEnabled: 1
       m_UnmaskedViews:
-      - m_SelectorType: 0
+      - m_SelectorType: 1
         m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_TypeName: 
         m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
         m_MaskType: 0
         m_MaskSizeModifier: 0
         m_UnmaskedControls:
-        - m_SelectorMode: 5
+        - m_SelectorMode: 4
+          m_SelectorMatchType: 0
+          m_GUIContent:
+            m_Text: KartClassic_Player
+            m_Image: {fileID: 0}
+            m_Tooltip: 
+          m_ControlName: 
+          m_PropertyPath: 
+          m_TargetType:
+            m_TypeName: 
+          m_GUIStyleName: 
+          m_ObjectReference:
+            m_SceneObjectReference:
+              m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
+              m_GameObjectGuid: 1e015b90-7713-408c-8d9a-3a4586f0f423
+              m_SerializedComponentType:
+                m_TypeName: 
+              m_ComponentIndex: 0
+              m_AssetObject: {fileID: 0}
+              m_Prefab: {fileID: 0}
+            m_FutureObjectReference: {fileID: 0}
+          m_VisualElementClassName: 
+          m_VisualElementName: 
+          m_VisualElementTypeName: 
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Select the GameObject
+    Text:
+      m_Untranslated: You can select GameObjects in the Hierarchy or directly in
+        the Scene view.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: In the Hierarchy, select the <b>KartClassic_Player</b> GameObject.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.RequiredSelectionCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 114925962760236852, guid: b09e6b5adfe5a4ff29595fc4e8406708,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: Select the Kart
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 278639b7d527f4e29be21670bb37a1d4, type: 3}
+    m_Video: {fileID: 32900000, guid: e292ffe4f11dd4130a4095e4e7879fe2, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Frame the kart
+    Text:
+      m_Untranslated: Before you change the color of the kart, you can easily get
+        a better view of it.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: With your cursor over the Scene view, press <b>F</b> on your
+        keyboard to frame the kart.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.FrameSelectedCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -662721786426520101, guid: b92311c12b6844296994d1de18be3d7d,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: Frame the Kart
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: c6178a00c884643b296377c8f7ea9668, type: 3}
+    m_Video: {fileID: 32900000, guid: aa27f6f5398a045c38dde51db2ce310b, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls:
+        - m_SelectorMode: 4
           m_SelectorMatchType: 0
           m_GUIContent:
             m_Text: 
             m_Image: {fileID: 0}
             m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
+          m_ControlName: 
+          m_PropertyPath: 
+          m_TargetType:
+            m_TypeName: 
+          m_GUIStyleName: 
+          m_ObjectReference:
+            m_SceneObjectReference:
+              m_SceneGuid: 
+              m_GameObjectGuid: 
+              m_SerializedComponentType:
+                m_TypeName: 
+              m_ComponentIndex: 0
+              m_AssetObject: {fileID: 2100000, guid: 09621e790441a46dd96384071c5c8a73,
+                type: 2}
+              m_Prefab: {fileID: 0}
+            m_FutureObjectReference: {fileID: 0}
+          m_VisualElementClassName: 
+          m_VisualElementName: 
+          m_VisualElementTypeName: 
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: 'Select the KartBody GameObject '
+    Text:
+      m_Untranslated: You can find Materials in the Assets folder of the Project
+        window, in the <b>Art</b> folder.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 'Select the KartBody GameObject '
+    Text:
+      m_Untranslated: Select the <b>KartBody</b> Material in the Project window.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.RequiredSelectionCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 114630345358920054, guid: c4b2d55732e7d4c11b1ec9c752f290bd,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items:
+          - Type:
+              m_TypeName: 
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls:
+        - m_SelectorMode: 0
+          m_SelectorMatchType: 0
+          m_GUIContent:
+            m_Text: KartBody
+            m_Image: {fileID: 0}
+            m_Tooltip: 
+          m_ControlName: 
           m_PropertyPath: 
           m_TargetType:
             m_TypeName: 
@@ -443,15 +710,44 @@ MonoBehaviour:
               m_AssetObject: {fileID: 0}
               m_Prefab: {fileID: 0}
             m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: unity-editor-toolbar__button-strip-element--left
-          m_VisualElementName: Play
-          m_VisualElementTypeName: UnityEditor.Toolbars.EditorToolbarToggle
+          m_VisualElementClassName: 
+          m_VisualElementName: 
+          m_VisualElementTypeName: 
+    m_Summary: Select KartBody
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: c7fcff347f1374508a72f3f15ca8affa, type: 3}
+    m_Video: {fileID: 32900000, guid: b6cee483e6a2d4b6c90e422699764588, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
       - m_SelectorType: 1
         m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_TypeName: 
         m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.ColorPicker, UnityEditor.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
@@ -465,13 +761,10 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Enter Play Mode
+      m_Untranslated: Change the color
     Text:
-      m_Untranslated: "First, let's try the game using <b>Play Mode</b>! You can
-        select Play in the <b>Toolbar</b> at the top of the default layout.\n\nGo
-        deeper:\n\n\u2022 The <b>Scene view</b> (in the center of this layout) is
-        where you\u2019ll manipulate and change things.\n\n\u2022 When you enter
-        Play Mode, the Scene view changes into the <b>Game view</b> for testing."
+      m_Untranslated: In the <b>Inspector</b>, find the <b>Main Maps</b> section
+        and the <b>color picker box</b> labeled <b>Albedo</b>.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -492,18 +785,36 @@ MonoBehaviour:
         m_MaskType: 0
         m_MaskSizeModifier: 0
         m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.ColorPicker, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
     m_Summary: 
     m_Description: 
-    m_InstructionBoxTitle: "<b><size=14>Play Mode</size></b>\n\nBefore you modify
-      your game, let's go ahead and play it!\x03\x03\n\nYou play your game in the
-      <b>Game view</b>."
-    m_InstructionText: 
+    m_InstructionBoxTitle: 'Change Color of Material
+
+'
+    m_InstructionText: "In the <b>Inspector Window</b>, you will see a color box
+      (to the right of the Base Map tag). \n\x03\x03\nTake a look in your Scene View
+      after changing the color. Your Kart color has changed!"
     m_TutorialButtonText: 
   - m_Type: 1
     Title:
-      m_Untranslated: 
+      m_Untranslated: Change the color
     Text:
-      m_Untranslated: Select <b>Play</b> to enter Play Mode.
+      m_Untranslated: '<b>1.</b> Select the <b>Albedo</b> color box to open the <b>Color
+        Picker window</b>.
+
+
+        <b>2.</b> In the color wheel, use the sliders
+        to select a new color, then take a look at the kart in your Scene view!'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -511,60 +822,36 @@ MonoBehaviour:
     m_Criteria:
       m_Items:
       - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 114177020261999768, guid: 612844087f48942d8b0855e60990f01a,
+          m_TypeName: Unity.Tutorials.Core.Editor.MaterialPropertyModifiedCriterion,
+            Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 114216683660447180, guid: de6cb0d6d7b084050a01059553ea16cd,
           type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
       m_UnmaskedViews:
-      - m_SelectorType: 0
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: 
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 1
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
       - m_SelectorType: 1
         m_ViewType:
           m_TypeName: 
         m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.ColorPicker, UnityEditor, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
         m_MaskType: 0
         m_MaskSizeModifier: 0
         m_UnmaskedControls: []
-    m_Summary: Enter Play Mode
+    m_Summary: Change Base Map color
     m_Description: 
     m_InstructionBoxTitle: 
     m_InstructionText: 
@@ -575,7 +862,7 @@ MonoBehaviour:
     Text:
       m_Untranslated: 
     m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 53c032a736ea44f72b204332d1dc0f01, type: 3}
+    m_Image: {fileID: 2800000, guid: 632dfd8aace744c6a9587cb2d4748871, type: 3}
     m_Video: {fileID: 32900000, guid: d69745293769a49ffb6955bb4862345c, type: 3}
     m_CriteriaCompletion: 0
     m_Criteria:
@@ -594,12 +881,25 @@ MonoBehaviour:
         m_MaskType: 0
         m_MaskSizeModifier: 0
         m_UnmaskedControls: []
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
       - m_SelectorType: 0
         m_ViewType:
           m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
         m_EditorWindowType:
-          m_TypeName: 
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
         m_MaskType: 0
@@ -626,9 +926,9 @@ MonoBehaviour:
               m_AssetObject: {fileID: 0}
               m_Prefab: {fileID: 0}
             m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: unity-editor-toolbar__button-strip-element--left
+          m_VisualElementClassName: 
           m_VisualElementName: Play
-          m_VisualElementTypeName: UnityEditor.Toolbars.EditorToolbarToggle
+          m_VisualElementTypeName: 
     m_Summary: 
     m_Description: 
     m_InstructionBoxTitle: 
@@ -636,11 +936,178 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 0
     Title:
-      m_Untranslated: Explore the game
+      m_Untranslated: Enter Play Mode
     Text:
-      m_Untranslated: "You can: \n\n\u2022 Move using the <b>WASD</b> or <b>arrow</b>
-        keys\n\n\u2022 Pause or view options using <b>Tab</b>\n\nRace your kart through
-        3 checkpoints to the finish line!"
+      m_Untranslated: 'Try playing the game with your new cart!
+
+
+        Remember
+        to save your changes regularly:
+
+
+        In the top menu, go to <b>File</b>
+        > <b>Save</b>, or use the shortcut <b>Ctrl</b> / <b>Cmd</b> + <b>S</b>.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: '<b><size=14>Playtest new Color</size></b>
+
+
+      With
+      your newly colored Kart, why not try playing the game? '
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Save your change, then select <b>Play</b> to enter Play Mode.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 114355154988462172, guid: 9d468684850864dd69745d16bb812c63,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 0
+        m_ViewType:
+          m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls:
+        - m_SelectorMode: 1
+          m_SelectorMatchType: 0
+          m_GUIContent:
+            m_Text: 
+            m_Image: {fileID: 0}
+            m_Tooltip: 
+          m_ControlName: ToolbarPlayModePlayButton
+          m_PropertyPath: 
+          m_TargetType:
+            m_TypeName: 
+          m_GUIStyleName: 
+          m_ObjectReference:
+            m_SceneObjectReference:
+              m_SceneGuid: 
+              m_GameObjectGuid: 
+              m_SerializedComponentType:
+                m_TypeName: 
+              m_ComponentIndex: 0
+              m_AssetObject: {fileID: 0}
+              m_Prefab: {fileID: 0}
+            m_FutureObjectReference: {fileID: 0}
+          m_VisualElementClassName: 
+          m_VisualElementName: 
+          m_VisualElementTypeName: 
+    m_Summary: Enter Play Mode
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 632dfd8aace744c6a9587cb2d4748871, type: 3}
+    m_Video: {fileID: 32900000, guid: d69745293769a49ffb6955bb4862345c, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+      - m_SelectorType: 0
+        m_ViewType:
+          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_EditorWindowType:
+          m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls:
+        - m_SelectorMode: 5
+          m_SelectorMatchType: 0
+          m_GUIContent:
+            m_Text: 
+            m_Image: {fileID: 0}
+            m_Tooltip: 
+          m_ControlName: ToolbarPlayModePlayButton
+          m_PropertyPath: 
+          m_TargetType:
+            m_TypeName: 
+          m_GUIStyleName: 
+          m_ObjectReference:
+            m_SceneObjectReference:
+              m_SceneGuid: 
+              m_GameObjectGuid: 
+              m_SerializedComponentType:
+                m_TypeName: 
+              m_ComponentIndex: 0
+              m_AssetObject: {fileID: 0}
+              m_Prefab: {fileID: 0}
+            m_FutureObjectReference: {fileID: 0}
+          m_VisualElementClassName: 
+          m_VisualElementName: Play
+          m_VisualElementTypeName: 
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Test your changes
+    Text:
+      m_Untranslated: As you test the game, think about how the new color changes
+        the player experience.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -666,7 +1133,8 @@ MonoBehaviour:
           m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
         m_EditorWindowType:
-          m_TypeName: 
+          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
         m_MaskType: 0
@@ -698,22 +1166,16 @@ MonoBehaviour:
           m_VisualElementTypeName: 
     m_Summary: 
     m_Description: 
-    m_InstructionBoxTitle: '<b><size=14>Game Controls</size></b>
-
-
-      You control
-      the Kart with the <b>Arrow keys</b>.
-
-
-      Drive through the 3 checkpoints
-      to finish. Once you are done, exit the play mode.'
+    m_InstructionBoxTitle: "<b><size=14>Exit Playtest</size></b>\x03\x03\n\nDon't
+      worry if your color doesn't look right, you can continue changing colors later."
     m_InstructionText: 
     m_TutorialButtonText: 
   - m_Type: 1
     Title:
-      m_Untranslated: Exit Play Mode
+      m_Untranslated: 
     Text:
-      m_Untranslated: When you're done, select Play again to exit Play Mode.
+      m_Untranslated: After you finish testing, select <b>Play</b> again to exit
+        Play Mode.
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -723,7 +1185,7 @@ MonoBehaviour:
       - Type:
           m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
             Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 114817151340577868, guid: 67df256d36f564827ab6cce4308e8cf8,
+        Criterion: {fileID: 114668853176159270, guid: 25b32eae891f6b34dae30855cf0cfe77,
           type: 2}
     m_MaskingSettings:
       m_MaskingEnabled: 0
@@ -744,7 +1206,8 @@ MonoBehaviour:
           m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
             PublicKeyToken=null
         m_EditorWindowType:
-          m_TypeName: 
+          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
         m_AlternateEditorWindowTypes:
           m_Items: []
         m_MaskType: 0
@@ -779,637 +1242,39 @@ MonoBehaviour:
     m_InstructionBoxTitle: 
     m_InstructionText: 
     m_TutorialButtonText: 
-  - m_Type: 7
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 919c66dd6aa06460a9f21e558a5a2d50, type: 3}
-    m_Video: {fileID: 32900000, guid: 35304cdc4c526489ca8df1faeb57f5b3, type: 3}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 4
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
-              m_GameObjectGuid: 1e015b90-7713-408c-8d9a-3a4586f0f423
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Select the Player GameObject
-    Text:
-      m_Untranslated: "Next, let\u2019s make the player's kart go faster!\n\nGo deeper:\n\n\u2022
-        Everything in your game world, including the player character, is called
-        a <b>GameObject</b>.\n\n\u2022The <b>Hierarchy</b> is where you organize
-        GameObjects \u2014 each one in your game is listed there.\n\n\u2022 Select
-        a GameObject to find out more about it and configure its behaviour."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: In the Hierarchy window, select the <b>KartClassic_Player</b>
-        GameObject in the list.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.RequiredSelectionCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: -3362870450676121921, guid: 711cc3d0de12846669d9e54d15ce9e04,
-          type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 7
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: ae6835abb80fc4f0c949b54d00b1c63c, type: 3}
-    m_Video: {fileID: 32900000, guid: 07194c5207fd848ddab5351079a420c4, type: 3}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 2
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: baseStats.TopSpeed
-          m_TargetType:
-            m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Increase the Top Speed
-    Text:
-      m_Untranslated: "The <b>Top Speed</b> property controls how fast the kart moves
-        forward.\n\nGo deeper:\n\n\u2022 When you select a GameObject in the Hierarchy,
-        you\u2019ll see its <b>components</b> in the <b>Inspector</b>. \n\n\u2022
-        Components contain <b>properties</b> that give a GameObject specific functionalities.\n\n\u2022
-        The <b>Arcade Kart</b> properties are what makes the player's kart move in
-        response to player input."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: '<b>1.</b> Increase the <b>Top Speed</b> to <b>20</b> using
-        the number field. You can find Top Speed under <b>Base Stats.</b>
-
-
-        <b>2.</b>
-        Select <b>Next</b> to continue.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PropertyModificationCriterion,
-            Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: -5907866945306606310, guid: 4ac627054a9104ee889eef8b990a8102,
-          type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 7
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 3e7fa2c6d4bc64207a7fbd8595747b33, type: 3}
-    m_Video: {fileID: 32900000, guid: d69745293769a49ffb6955bb4862345c, type: 3}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 0
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 5
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
-          m_PropertyPath: baseStats.TopSpeed
-          m_TargetType:
-            m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: unity-editor-toolbar__button-strip-element--left
-          m_VisualElementName: Play
-          m_VisualElementTypeName: UnityEditor.Toolbars.EditorToolbarToggle
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Enter Play Mode
-    Text:
-      m_Untranslated: 'Let''s test your change!
-
-
-        <b>Remember:</b>
-
-
-        Save
-        your changes regularly!
-
-
-        To save, go to <b>File</b> > <b>Save</b>
-        in the top menu, or use the shortcut <b>Ctrl</b> / <b>Cmd</b> + <b>S</b>.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 2
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: baseStats.TopSpeed
-          m_TargetType:
-            m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: '<b><size=14>Change Top Speed Property</size></b>
-
-
-      You
-      can see all the properties of the KartClassic_Player GameObject in the Inspector.
-
-
-      Try
-      increasing the number in the <b>Top Speed</b> field to make the Kart go faster.'
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: Save your change, then select <b>Play</b> to enter Play Mode.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: -6040156614112920962, guid: 1ddadc0b2227c4f95b63cc350b714bd5,
-          type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 2
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: 
-          m_PropertyPath: baseStats.TopSpeed
-          m_TargetType:
-            m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 7
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 2800000, guid: 53c032a736ea44f72b204332d1dc0f01, type: 3}
-    m_Video: {fileID: 32900000, guid: d69745293769a49ffb6955bb4862345c, type: 3}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 1
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-      - m_SelectorType: 0
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 5
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: unity-editor-toolbar__button-strip-element--left
-          m_VisualElementName: Play
-          m_VisualElementTypeName: UnityEditor.Toolbars.EditorToolbarToggle
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Test your change
-    Text:
-      m_Untranslated: 'Test the increased speed: how has the player experience changed?'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: "<b><size=14>Playtest with new Speed</size></b>\n\nNow
-      try your game with the new speed. Click <b>Play</b> at the top of the editor
-      to enter Play Mode.\x03\x03\n\nDon't worry if the speed does not feel right,
-      you can change it after the tutorial."
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: After you finish testing, select <b>Play</b> again to exit
-        Play Mode.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 114177020261999768, guid: 563a8aba6d9a0a0418aae455804e1e85,
-          type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews:
-      - m_SelectorType: 0
-        m_ViewType:
-          m_TypeName: UnityEditor.Toolbar, UnityEditor, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-        m_EditorWindowType:
-          m_TypeName: 
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls:
-        - m_SelectorMode: 1
-          m_SelectorMatchType: 0
-          m_GUIContent:
-            m_Text: 
-            m_Image: {fileID: 0}
-            m_Tooltip: 
-          m_ControlName: ToolbarPlayModePlayButton
-          m_PropertyPath: 
-          m_TargetType:
-            m_TypeName: 
-          m_GUIStyleName: 
-          m_ObjectReference:
-            m_SceneObjectReference:
-              m_SceneGuid: 
-              m_GameObjectGuid: 
-              m_SerializedComponentType:
-                m_TypeName: 
-              m_ComponentIndex: 0
-              m_AssetObject: {fileID: 0}
-              m_Prefab: {fileID: 0}
-            m_FutureObjectReference: {fileID: 0}
-          m_VisualElementClassName: 
-          m_VisualElementName: 
-          m_VisualElementTypeName: 
-      - m_SelectorType: 1
-        m_ViewType:
-          m_TypeName: 
-        m_EditorWindowType:
-          m_TypeName: UnityEditor.GameView, UnityEditor, Version=0.0.0.0, Culture=neutral,
-            PublicKeyToken=null
-        m_AlternateEditorWindowTypes:
-          m_Items: []
-        m_MaskType: 0
-        m_MaskSizeModifier: 0
-        m_UnmaskedControls: []
-    m_Summary: Enter Play Mode
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
   - m_Type: 6
     Title:
       m_Untranslated: 
     Text:
       m_Untranslated: 
-    m_Tutorial: {fileID: 11400000, guid: ef019b20e49b14cfca4e98ecf5fd345d, type: 2}
+    m_Tutorial: {fileID: 11400000, guid: 351b553575cb34b12945f5996095329d, type: 2}
     m_Image: {fileID: 2800000, guid: cf2b88c8b41ea4e42ba6e17726c32b87, type: 3}
-    m_Video: {fileID: 32900000, guid: 8325f6e9b7fa649a483f195d6e94d060, type: 3}
+    m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
     m_Criteria:
       m_Items: []
     m_MaskingSettings:
-      m_MaskingEnabled: 0
+      m_MaskingEnabled: 1
       m_UnmaskedViews: []
     m_Summary: 
     m_Description: 
     m_InstructionBoxTitle: 
     m_InstructionText: 
-    m_TutorialButtonText: 'Tutorial: Getting to know Editor'
+    m_TutorialButtonText: 'Tutorial 3: Add Prefab'
   - m_Type: 0
     Title:
       m_Untranslated: Next steps
     Text:
-      m_Untranslated: "In this tutorial, you learned some basics of the Unity Editor
-        interface, increased the kart's speed, and playtested. \n\nNext, you\u2019ll
-        learn more about the Unity Editor."
+      m_Untranslated: 'In this tutorial, you learned how to change colors in your
+        game by editing the Materials.
+
+
+        Feel free to play around with Materials
+        and change the colors of other GameObjects.
+
+
+        When you''re ready
+        to continue, you''ll add a jump to increase the challenge!'
     m_Tutorial: {fileID: 0}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
@@ -1421,19 +1286,18 @@ MonoBehaviour:
       m_UnmaskedViews: []
     m_Summary: 
     m_Description: 
-    m_InstructionBoxTitle: "<b><size=14>Tutorial Completed</size></b>\n\nYou've now
-      played your game and changed the speed of your Kart. \n\nWhat's next? Keep
-      going to learn how to change your Kart's color, and add objects around the
-      track. \x03\x03\n\nBefore you do, get familiar with the Editor."
+    m_InstructionBoxTitle: "<b><size=14>Tutorial Completed</size></b>\x03\x03\n\nGreat!
+      Now you've learned how to change colors of objects.\n\nWant to add a jump to
+      your game? Learn how in the next tutorial."
     m_InstructionText: 
     m_TutorialButtonText: 
   - m_Type: 1
     Title:
       m_Untranslated: 
     Text:
-      m_Untranslated: 'Select <b>Tutorial 2: Editor basics</b> to continue directly,
+      m_Untranslated: 'Select <b>Tutorial 4: Add a jump</b> to continue directly,
         or <b>Done</b> to return to the tutorial overview.'
-    m_Tutorial: {fileID: 11400000, guid: ef019b20e49b14cfca4e98ecf5fd345d, type: 2}
+    m_Tutorial: {fileID: 11400000, guid: 351b553575cb34b12945f5996095329d, type: 2}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
@@ -1449,11 +1313,10 @@ MonoBehaviour:
     m_TutorialButtonText: 
   - m_Type: 2
     Title:
-      m_Untranslated: 'Select <b>Tutorial 2: Learn the basics</b> to continue directly,
-        or <b>Done</b> to return to the tutorial overview.'
+      m_Untranslated: 
     Text:
-      m_Untranslated: 'Tutorial 2: Editor basics'
-    m_Tutorial: {fileID: 11400000, guid: ef019b20e49b14cfca4e98ecf5fd345d, type: 2}
+      m_Untranslated: 'Tutorial: Add a jump'
+    m_Tutorial: {fileID: 11400000, guid: 351b553575cb34b12945f5996095329d, type: 2}
     m_Image: {fileID: 0}
     m_Video: {fileID: 0}
     m_CriteriaCompletion: 0
@@ -1473,7 +1336,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 08f5116c6f71aa548a00fbd1f56fa92e, type: 2}
   m_ChildContainers: []
   m_MaskingEnabled: 1
-  m_FarthestPageCompleted: 3
+  m_FarthestPageCompleted: -1
   m_PlayModeChanging: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -1526,9 +1389,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 541.60004
-    width: 935
-    height: 241.79999
+    y: 564
+    width: 937.5
+    height: 242
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1546,22 +1409,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Karting/Prefabs/KartClassic
+    - Assets/Karting/Art/Materials/Kart_Classic
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Karting/Prefabs/KartClassic
+  - Assets/Karting/Art/Materials/Kart_Classic
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Github\Karting-Microgame
+  m_LastProjectPath: /Users/zhihanzhang/Documents/GitHub/Karting-Microgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66.20001}
-    m_SelectedIDs: 72840000
-    m_LastClickedID: 33906
-    m_ExpandedIDs: 0000000070840000748400007684000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: a6b00000
+    m_LastClickedID: 45222
+    m_ExpandedIDs: 00000000b8760000bc7600007cb000009ab0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1589,7 +1452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000748400007684000000ca9a3b
+    m_ExpandedIDs: 00000000b8760000bc76000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1666,10 +1529,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 936
-    y: 73.6
-    width: 279.59998
-    height: 709.8
+    x: 938.5
+    y: 96
+    width: 277
+    height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1709,8 +1572,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73.6
-    width: 250.2
+    y: 96
+    width: 153.5
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1721,7 +1584,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ad2ffff82d2ffff16fbffff
+      m_ExpandedIDs: 2efffdff46fffdff801ffeff981ffeff7c4efeffb659feffce59feff3878feff5078feffd82effff7250ffff36c0ffff4ec0ffff3cfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1766,9 +1629,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 251.2
-    y: 73.6
-    width: 682.8
+    x: 154.5
+    y: 96
+    width: 782
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1779,8 +1642,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -215.20001, y: 24.8}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: -215.20001, y: 0}
+      snapOffsetDelta: {x: -0.7999878, y: 0}
       snapCorner: 1
       id: unity-transform-toolbar
       index: 0
@@ -1973,7 +1836,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 15.698416, y: 5.1231155, z: -10.648062}
     speed: 2
-    m_Value: {x: 15.698416, y: 5.1231155, z: -10.648062}
+    m_Value: {x: 16.871986, y: -31.726498, z: 60.59}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2022,11 +1885,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.10191211, y: -0.0134293325, z: 0.0013759093, w: 0.99470365}
     speed: 2
-    m_Value: {x: 0.10190976, y: -0.014921346, z: 0.0015287732, w: 0.9946806}
+    m_Value: {x: -0.2800146, y: 0.0020133632, z: -0.0005872358, w: -0.9599935}
   m_Size:
-    m_Target: 4.827105
+    m_Target: 0.021749733
     speed: 2
-    m_Value: 4.827105
+    m_Value: 33.51351
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2072,8 +1935,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 154.40001
-    y: 73.6
+    x: 154.5
+    y: 96
     width: 782
     height: 447
   m_ViewDataDictionary: {fileID: 0}
@@ -2101,10 +1964,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1024
-    m_HBaseRangeMax: 1024
-    m_VBaseRangeMin: -576
-    m_VBaseRangeMax: 576
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2124,7 +1987,7 @@ MonoBehaviour:
       y: 0
       width: 782
       height: 447
-    m_Scale: {x: 0.38183594, y: 0.38183597}
+    m_Scale: {x: 0.6109375, y: 0.6109375}
     m_Translation: {x: 391, y: 223.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -2132,13 +1995,13 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1024
-      y: -585.3299
-      width: 2048
-      height: 1170.6598
+      x: -640
+      y: -365.8312
+      width: 1280
+      height: 731.6624
     m_MinimalGUI: 1
-  m_defaultScale: 0.38183594
-  m_LastWindowPixelSize: {x: 977.5, y: 558.75}
+  m_defaultScale: 0.6109375
+  m_LastWindowPixelSize: {x: 1564, y: 894}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
